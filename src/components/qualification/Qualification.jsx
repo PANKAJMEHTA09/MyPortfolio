@@ -16,16 +16,11 @@ const Qualification = () => {
 
         <div className="qualification__container container">
             <div className="qualification__tabs">
-                <div className={toggleState === 1 ? "qualification__button button--flex qualification__active" 
-                    : "qualification__button button--flex"} onClick={() => toggleTab(1)}>
+                <div>
                     <HiOutlineAcademicCap className="qualification__icon" />
                     Education
                 </div>
-                <div className={toggleState === 2 ? "qualification__button button--flex qualification__active" 
-                    : "qualification__button button--flex"} onClick={() => toggleTab(2)}>
-                    <HiOutlineBriefcase className="qualification__icon" />
-                    Experience
-                </div>
+                
             </div>
 
             <div className="qualification__sections">
@@ -33,11 +28,11 @@ const Qualification = () => {
                     : "qualification__content"}>
                     <div className="qualification__data">
                         <div>
-                            <h3 className="qualification__title">Design</h3>
-                            <span className="qualification__subtitle">The Art Institute</span>
+                            <h3 className="qualification__title">B.Tech</h3>
+                            <span className="qualification__subtitle">Chandigarh Group of Colleges, Landran</span>
                             <div className="qualification__calendar">
                                 <HiOutlineCalendar className="qualification__calendar-icon" />
-                                2016-2018
+                                2022-2026
                             </div>
                         </div>
                         <div>
@@ -52,21 +47,21 @@ const Qualification = () => {
                             <span className="qualification__line"></span>
                         </div>
                         <div>
-                            <h3 className="qualification__title">Web Development</h3>
-                            <span className="qualification__subtitle">Full Sail University</span>
+                            <h3 className="qualification__title">Intermediate</h3>
+                            <span className="qualification__subtitle">St. Sofia Senior Secondary School, Hisar</span>
                             <div className="qualification__calendar">
                                 <HiOutlineCalendar className="qualification__calendar-icon" />
-                                2018-2021
+                                2021-20
                             </div>
                         </div>
                     </div>
                     <div className="qualification__data">
                         <div>
-                            <h3 className="qualification__title">UI/UX Design</h3>
-                            <span className="qualification__subtitle">UX Academy</span>
+                            <h3 className="qualification__title">Matriculate</h3>
+                            <span className="qualification__subtitle">Bharat High School</span>
                             <div className="qualification__calendar">
                                 <HiOutlineCalendar className="qualification__calendar-icon" />
-                                2021-2022
+                                2019-2020
                             </div>
                         </div>
                         <div>

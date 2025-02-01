@@ -1,7 +1,7 @@
 import React from 'react';
 import "./about.css";
-import AboutImg from "../../assets/aboutBW.jpeg";
-import CV from "../../assets/Example-Cv.pdf";
+import AboutImg from "../../assets/aboutP.png";
+import CV from "../../assets/pcv.pdf";
 import Info from "./Info";
 
 const About = () => {
@@ -12,9 +12,16 @@ const About = () => {
         <div className="about__container container grid">
             <img src={AboutImg} alt="about" className="about__img" />
             <div className="about__data">
-                <Info />
+                {/* <Info /> */}
                 <p className="about__description">
-                    I create applications highlighting minimal design and friendly UI/UX interfaces.
+                A motivated and goal-oriented undergraduate
+with strong communication, problem-solving,
+and leadership skills. A keen observer and
+positive thinker with a passion for exploring
+innovative solutions in Computer Science
+Engineering. Skilled in developing efficient and
+high-quality projects while continuously striving
+for personal and professional growth.
                 </p>
                 <a download="" href={CV} className="button button--flex">
                     Download CV
